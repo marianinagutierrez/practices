@@ -19,14 +19,7 @@ As good practices we must always maintain two branches: **master** and **develop
 
 `git checkout -b [branch_name]`
 
-```mermaid
-sequenceDiagram
-Master ->> Develop: new branch
-Develop -->> Feature: new branch
-
-Note right of Feature: Develop is a copy of Master <br/>and<br/>Feature is a copy of Develop<br/>but<br/>Feature is not necessarily <br/>a<br/> copy of master.
-```
-
+![alt text](./diag.png)
 ### Add files
 
 Assuming we are developing on the **develop** branch, at the end we must add file contents to the index of git repository, so we type:
