@@ -19,7 +19,8 @@ As good practices we must always maintain two branches: **master** and **develop
 
 `git checkout -b [branch_name]`
 
-![alt text](./diag.png)
+<img src="./diag.png" width="600">
+
 ### Add files
 
 Assuming we are developing on the **develop** branch, at the end we must add file contents to the index of git repository, so we type:
